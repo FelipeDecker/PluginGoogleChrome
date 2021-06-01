@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title> Insta Follows </title>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="execution">
+            <div class="status-profile">
+                <div class="accomplished">
+                    <label> 0 </label>
+                    <label> Execuções feitas </label>
+                </div>
+                <div class="profile">
+                    <label> -- </label>
+                    <label> Perfil atual </label>
+                </div>
+            </div>
+            <div class="status-time">
+                <label class="time"> Tempo para proxima execução: </label>
+                <label> time </label>
+            </div>
+        </div>
+        <div class="form">
+            <input class="interval" type="number" placeholder="Intervalo entre ações">
+            <input class="actions" type="number" placeholder="Ações a realizar">
+        </div>
+        <div class="options">
+            <div class="check">
+                <input type="checkbox" id="alert">
+                <label for="alert"> Alertar quando terminar </label>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="status">
+                <label for="status"> Exibir status </label>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="reset">
+                <label for="reset"> Reiniciar perfis </label>
+            </div>
+        </div>
+        <div class="accounts">
+            <div class="add">
+                <button class="add-account"> Adicionar perfil </button>
+                <select class="select close">
+                    <option value=""> Este</option>
+                </select>
+            </div>
+            <div class="added">
+                <label> Adicionados </label>
+                <div class="item">
+                    <span class="item-name"> </span>
+                    <button class="remove"> X </button>
+                </div>
+            </div>
+        </div>
+        <div class="mudar">
+            <button class="start-button pause"> Iniciar </button>
+        </div>
+    </div>
+</body>
+</html>

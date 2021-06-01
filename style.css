@@ -1,0 +1,61 @@
+body {
+    background-color: #ffffff;
+    width: 250px;
+    height: 500px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.execution {
+    margin-bottom: 20px;
+}
+
+.status-profile {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.accomplished, 
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.accomplished {
+    margin-right: 30px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+.start-button {
+    background-color: transparent;
+    border-radius: 5px;
+    width: 100px;
+    height: 50;
+}
+
+.pause {
+    border: 1px solid #208020;
+    color: #208120;
+}
+
+.run {
+    border: 1px solid #802020;
+    color: #802020;
+}
+
+button {
+    outline: none;
+}
